@@ -17,7 +17,8 @@ function Homebar() {
     return (
         <div className="homebar-container">
             <div className="navigation-links">
-                <Link to="/transactions">Transactions</Link>
+                <Link to="/transactions-graph">Transactions Graph</Link>
+                <Link to="/transactions-list">Transactions List</Link>
                 <Link to="/add-transaction">Add Transaction</Link>
                 <Link to="/profile">Profile</Link>
             </div>

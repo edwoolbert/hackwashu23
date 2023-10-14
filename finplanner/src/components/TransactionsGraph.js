@@ -1,11 +1,11 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { useNavigate } from 'react-router-dom';
-import '../styles/Transactions.css';
+import '../styles/TransactionsGraph.css';
 import '../chartConfig.js'
 import Homebar from './HomeBar';
 
-function Transactions() {
+function TransactionsGraph() {
     const transactions = [
         { id: 1, date: "2023-01-01", description: "Start", amount: 0 },
         { id: 2, date: "2023-01-02", description: "Groceries", amount: -50 },
@@ -71,4 +71,4 @@ function Transactions() {
     );
 }
 
-export default Transactions;
+export default TransactionsGraph;

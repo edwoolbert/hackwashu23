@@ -8,7 +8,7 @@ function Login() {
     const handleLogin = () => {
         // Here, you'd typically validate the user's credentials. 
         // Once validated, redirect them to the transactions page.
-        navigate("/transactions")
+        navigate("/transactions-graph")
     };
 
     return (

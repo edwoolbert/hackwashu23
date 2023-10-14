@@ -16,7 +16,7 @@ function AddTransaction() {
         e.preventDefault();
         // You can add the logic here to save the transaction data
         console.log({ date, description, amount });
-        navigate('/transactions')
+        navigate('/transactions-graph')
     }
 
     return (
