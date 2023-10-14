@@ -1,0 +1,55 @@
+.add-transaction-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 2px solid #009933;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #009933;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px; 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3300;
+}

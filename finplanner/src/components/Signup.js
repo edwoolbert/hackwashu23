@@ -5,7 +5,7 @@ import '../styles/SignUp.css';
 function SignUp() {
     return (
         <div className="signup-container">
-            <h2>Stellar Financial - Sign Up</h2>
+            <h2 className='signup-title'>Stellar Financial - Sign Up</h2>
             <div className="signup-form">
                 <input type="text" placeholder="Username" />
                 <input type="email" placeholder="Email" />

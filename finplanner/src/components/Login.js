@@ -13,7 +13,7 @@ function Login() {
 
     return (
         <div className="login-container">
-            <h2>Stellar Financial</h2>
+            <h2 className='login-title'>Stellar Financial</h2>
             <div className="login-form">
                 <input type="text" placeholder="Username" />
                 <input type="password" placeholder="Password" />

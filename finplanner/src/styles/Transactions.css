@@ -1,15 +1,40 @@
 .transactions-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background for a subtle touch */
+    color: #333; /* Dark text for contrast */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    height: 100vh; /* take full viewport height */
+    align-items: center; /* center items horizontally */
 }
 
 h2 {
-    color: #333;
+    border-bottom: 2px solid #009933; /* Fidelity Green */
+    padding-bottom: 10px;
     margin-bottom: 20px;
+    color: #009933; /* Fidelity Green */
+    width: 100%;
+}
+
+canvas {
+    max-height: 65vh; /* set a maximum height for the chart */
+    margin: 20px 0;
+    width: 90%; /* limit width to avoid overflow */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600; /* Mix between Mastercard's red & Fidelity's green */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* center the button horizontally */
+}
+
+button:hover {
+    background-color: #ff3300; /* Darker shade on hover */
 }

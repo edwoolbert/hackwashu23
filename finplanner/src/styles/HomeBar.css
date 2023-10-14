@@ -1,0 +1,54 @@
+.homebar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical centering for all child elements */
+    padding: 10px 20px;
+    background-color: #009933; /* Fidelity Green */
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-links {
+    display: flex;
+    gap: 20px; /* Spacing between links */
+    align-items: center; /* In case there are any other elements, they'll be vertically centered */
+}
+
+.navigation-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: normal; /* Resetting any inherited line-height */
+}
+
+.navigation-links a:hover {
+    color: #ff6600; /* Mix between Mastercard's red & Fidelity's green */
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.logout-button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5F00; /* Mastercard's red */
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Ensure no external margins */
+    line-height: normal; /* Resetting any potential inherited line-height */
+}
+
+.logout-button:hover {
+    background-color: #ff3300;
+    transform: scale(1.05);
+}
+
+.logout-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Transactions.css';
+import '../chartConfig.js'
+import Homebar from './HomeBar';
 
 function Transactions() {
     const transactions = [
@@ -56,10 +59,14 @@ function Transactions() {
         }
     };
 
+    const navigate = useNavigate()
+
     return (
         <div className="transactions-container">
+            <Homebar />
             <h2>Balance Evolution</h2>
             <Line data={data} options={options} />
+            <button onClick={() => navigate('/add-transaction')}>Add Transaction</button>
         </div>
     );
 }

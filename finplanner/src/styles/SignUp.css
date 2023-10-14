@@ -5,6 +5,13 @@
     justify-content: center;
     height: 100vh;
     background: linear-gradient(45deg, #00a868, #ff5f00);
+    text-align: center;
+}
+
+.signup-title {
+    font-size: 24px;  /* adjust as needed */
+    color: #333;      /* darkened color for visibility */
+    margin-bottom: 20px; /* adds a little space below the title */
 }
 
 .signup-form {
