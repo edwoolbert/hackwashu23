@@ -1,0 +1,20 @@
+/* Global styles, common utility classes, layout and reset, etc., would go here. */
+
+/* For now, it's empty since we've moved component-specific styles to their respective CSS files. 
+   In a real-world scenario, you'd have some base styles or utility classes here. */
+
+/* Example of potential global styles: */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ... any other global or utility styles */
